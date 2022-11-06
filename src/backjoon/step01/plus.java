@@ -9,11 +9,10 @@ public class plus {
 		int A;
 		int B;
 		
-		Scanner sc1 = new Scanner(System.in);
-		Scanner sc2 = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
-		A = sc1.nextInt();
-		B = sc2.nextInt();
+		A = sc.nextInt();
+		B = sc.nextInt();
 		
 		System.out.println(A+B);
 	}
